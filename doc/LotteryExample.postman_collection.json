@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "c451467f-e1f5-4eb1-adc7-bf32545e20ed",
+		"name": "LotteryExample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/lottery",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/lottery",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"lottery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/lottery",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/lottery",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"lottery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/member/myid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/member/myid",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"member",
+						"myid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/lottery/try/roll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/lottery/try/roll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"lottery",
+						"try",
+						"roll"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
